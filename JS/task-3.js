@@ -1,0 +1,1 @@
+// ______Task 3. Filtering an array of numbers___
