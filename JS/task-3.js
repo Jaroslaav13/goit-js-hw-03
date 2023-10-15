@@ -1,1 +1,15 @@
 // ______Task 3. Filtering an array of numbers___
+
+function filterArray(numbers, value) {
+    let newArray = [];
+    for (const number of numbers) {
+        if (number > value) {
+            newArray.push(number);
+        }
+    } return newArray;
+}
+console.log(filterArray([1, 2, 3, 4, 5], 3));
+console.log(filterArray([1, 2, 3, 4, 5], 4)); 
+console.log(filterArray([1, 2, 3, 4, 5], 5)); 
+console.log(filterArray([12, 24, 8, 41, 76], 38)); 
+console.log(filterArray([12, 24, 8, 41, 76], 20)); 
